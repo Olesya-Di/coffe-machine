@@ -1,0 +1,37 @@
+.coffee-list {
+  background-image: url("img/background.jpg");
+  background-size: cover; /*contain- поместить по ширине, cover замостить, покрыть полностью*/
+  background-repeat: no-repeat;
+}
+.coffee-item {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50px;
+  margin: 15px;
+  cursor: pointer; /*при наведении мышки стрелка превращается в руку*/
+}
+.coffee-item:hover { /*подсветка при наведении курсора*/
+  background-color: rgba(50, 50, 50, 0.7);
+}
+.coffee-item img { /* ко всем картинкам, находящимся в классе coffee-item*/
+  background-color: white;
+  border-radius: 50%;
+  height: 100px;
+}
+.coffee-item span {
+  color: white;
+  margin-left: 30px;
+}
+
+.coffee-oper {
+  background-color: lightgrey;
+  padding: 15px;
+}
+.display {
+  background-color: lightblue;
+  border: 2px solid darkgreen;
+  min-height: 100px;
+  padding: 10px;
+}
+.cap img {
+  width: 100%; /*размер от родительского элемента div class="cup"*/
+}
