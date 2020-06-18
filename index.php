@@ -50,10 +50,13 @@
               </div>
             </div>
             <div class="col-6"> <!--баланс, АТМ, сдача-->
+
               <div class="input-group mb-3">
-                <input type="text" class="form-control balance" placeholder="Баланс" 
+                <input type="text" class="form-control balance" placeholder="Баланс" >
+                
                 <div class="input-group-append">
                   <span class="input-group-text">&#8381;</span> 
+                </div>
               </div><!--это из бутстрапа-->
                 
               <div class="atm">
