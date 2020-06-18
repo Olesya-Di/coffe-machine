@@ -20,15 +20,15 @@
               <img src="img/americano.png" alt="Американо">
               <span>Американо - 50 руб.</span>
             </div>
-          <div class="coffee-item">
+            <div class="coffee-item">
               <img src="img/cappuccino.png" alt="Капучино">
               <span>Капучино - 92 руб.</span>
             </div>
-          <div class="coffee-item">
+            <div class="coffee-item">
               <img src="img/espresso.png" alt="Эспрессо">
               <span>Эспрессо - 66 руб.</span>
             </div>
-          <div class="coffee-item">
+            <div class="coffee-item">
               <img src="img/latte.jpg" alt="Латте">
               <span>Латте - 128 руб.</span>
             </div>
@@ -50,14 +50,27 @@
               </div>
             </div>
             <div class="col-6"> <!--баланс, АТМ, сдача-->
+              <div class="input-group mb-3">
+                <input type="text" class="form-control balance" placeholder="Баланс" 
+                <div class="input-group-append">
+                  <span class="input-group-text">&#8381;</span> 
+              </div><!--это из бутстрапа-->
+                
+              <div class="atm">
+                <img src="img/bill_acc.png" alt="автомат">
+              </div>
               
+              <button class="btn btn-primary btn-block mt-3 change-btn">Сдача</button>
+              <div class="change-box mt-3"></div>
             </div>
+             
           </div>
-        </div> <!--правая сторона-->
-      </div>
+        </div>
+      </div> 
     </div>
+    
 
-<!--правая часть-->
+
     
 
     <!-- Optional JavaScript -->
