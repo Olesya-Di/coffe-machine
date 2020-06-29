@@ -32,7 +32,8 @@
   min-height: 100px;
   padding: 10px;
 }
-.cap img {
+
+.cup img {
   width: 100%; /*размер от родительского элемента div class="cup"*/
 }
 
