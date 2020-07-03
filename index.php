@@ -53,7 +53,7 @@
             <div class="col-6"> <!--баланс, АТМ, сдача-->
 
               <div class="input-group mb-3">
-                <input type="text" class="form-control balance" placeholder="Баланс" >
+                <input type="text" class="form-control balance" placeholder="Баланс" readonly>
                 
                 <div class="input-group-append">
                   <span class="input-group-text">&#8381;</span> 
@@ -61,6 +61,9 @@
               </div><!--это из бутстрапа-->
                 
               <div class="atm">
+                
+                <div class="cash-catcher"></div> <!--див для эфекта заезжающей купюры-->
+                
                 <img src="img/bill_acc.png" alt="автомат">
               </div>
               
@@ -73,9 +76,9 @@
       </div> 
     </div>
     <div class ="money">
-      <img src="img/100rub.jpg" alt="100руб">
-      <img src="img/500rub.jpg" alt="500руб">
-      <img src="img/50rub.jpg" alt="50руб">
+      <img src="img/100rub.jpg" cost="100" alt="100руб">
+      <img src="img/500rub.jpg" cost="500" alt="500руб">
+      <img src="img/50rub.jpg" cost="50" alt="50руб">
     </div>
 
 
